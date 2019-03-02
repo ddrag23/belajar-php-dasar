@@ -1,0 +1,40 @@
+  //
+  // foreach ($brands as $key => $nama_brand) {
+  //   echo $nama_brand."<br>";
+  // }
+  //
+  // echo "<br>";
+  // echo "<br>";
+  // echo "<br>";
+  //
+  // for ($i=0; $i < 8; $i++) {
+  //   echo $brands[$i]."<br>";
+  // }
+
+  // nampilkan data associativ array
+  // foreach ($brands_assoc as $key => $value) {
+  //   echo $value['name'];
+  // }
+  // echo "<br>";
+  // echo "<br>";
+  // echo "<br>";
+  // //
+  // for ($i=0; $i < 8 ; $i++) {
+  //   echo $brands_assoc[$i]["name"];
+  //   # code...
+  // // }
+  // die();
+
+fungsi explode yakni untuk memecah string menjadi array/lebih mudahnya ini untuk menggabungkan extensi file dari namanya
+end();//untuk mengambil yang paling terakhir. atau untuk mengambil jenis extensi
+strlower()//untuk menjadikan semua huruf extensi menjadi huruf kecil
+in_array = untuk mengecek adakah sebuah string didalam array
+move_upload_file = untuk mengupload/memindahkan file yang kita upload. ini mengambil dari tmp_name yang ada didalam fungis $_FILES
+fungsi uniqid(); untuk membangkitkan/ untuk membuat sebuah random array supaya penamaan file tidak akan sama didalam databases
+stripslases = untuk menghilangkan tanda tanya dll/kode2
+mysqli_real_escape_string = berguna untuk supaya user bisa memasukkan tanda kutip. dan akan dimasukkan kedalam database secara aman
+
+//untuk enkripsi password
+password_hash//ini untuk mengacak dari string menjadi random($cekPswdYangDimasukkanUser.Algoritmanya_ini memakai algoritma default yaitu PASSWORD_DEFAULT. harus huruf besar semua)
+
+password verify untuk merubah kembali password random mejadi string utuh. bisa dibilang ini adalah dencrypti
